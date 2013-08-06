@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qbx-2x-LqG">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="LLLViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="ipad_4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MDe-20-UAq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="VFu-ig-iPT"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3k-JP-Vvq">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cXo-Ar-7vj" kind="push" id="bN8-BF-R14"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MDe-20-UAq" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="4zg-6O-iqL"/>
+                            <constraint firstItem="MDe-20-UAq" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="NWs-5f-vtD"/>
+                            <constraint firstItem="k3k-JP-Vvq" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="aMj-Hm-UuB"/>
+                            <constraint firstItem="k3k-JP-Vvq" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="113" id="y7R-dH-VHv"/>
+                            <constraint firstItem="MDe-20-UAq" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="zjE-lO-pVP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xWK-3F-1uF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559" y="6"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="98Y-Ry-jpX">
+            <objects>
+                <viewController id="cXo-Ar-7vj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Ok-Lx-V6g">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ckg-Gk-PRA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TBa-Mu-swg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1099" y="-1"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rqh-6N-aeM">
+            <objects>
+                <navigationController id="qbx-2x-LqG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aqB-wf-spv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="RDl-jC-5GV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vs6-yD-DTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-22" y="6"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ipad_4.jpg" width="384" height="509"/>
+    </resources>
+    <classes>
+        <class className="LLLViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LLLViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
