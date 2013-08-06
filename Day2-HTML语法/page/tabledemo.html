@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 简写方式 -->
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>学员表格</h1>
+        <!-- 表格边框粗细 1 个像素 -->
+        <table border="1">
+                <tr>
+                    <td>编号</td>
+                    <td>姓名</td>
+                    <td>电话</td>
+                    <td>性别</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>张明</td>
+                    <td>17729384736</td>
+                    <td>男</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>李敏</td>
+                    <td>1328726474</td>
+                    <td>女</td>
+                </tr>
+        </table>
+        
+        <hr />
+        
+        <h1>学员注册表单</h1>
+        <!-- 网页除了可以把内容展示给用户看，还可让用户填写，表单就是给用户填写数据的标签 -->
+        <!-- form 标签，包含所有输入的子标签 -->
+        <form >
+            <!-- type="" 定义输入框类型 -->
+            <!-- name="" 定义输入框名称 -->
+            <!-- value="" 定义输入框值 -->
+            <!-- maxlength="" 定义输入框最多输入字符数 -->
+            姓名:<input type="text" name="username" value="" /><br />
+            密码:<input type="password" name="userpwd" value="" /><br />
+            电话:<input type="text" name="userphone" value="" maxlength="11" /><br />
+            性别:<input type="radio" name="sex" />男
+                 <input type="radio" name="sex" />女
+                 <input type="radio" name="sex" />保密
+              <br />
+            爱好:<input type="checkbox" name="like" />逛街
+                <input type="checkbox" name="like" />吃东西
+            <input type="checkbox" name="like" />学习
+            <input type="checkbox" name="like" />写代码
+            <input type="checkbox" name="like" />睡觉
+            <br />
+            籍贯:<select name="">
+                    <option value="1">北京</option>
+                    <option value="2">上海</option>
+                
+                </select>
+            <br />
+            自我描述:<textarea row="5"></textarea>
+            <br />
+            
+            <button>提交</button>
+            <input type="button" value="提交" />
+            <input type="submit" value="提交" />
+        </form>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
