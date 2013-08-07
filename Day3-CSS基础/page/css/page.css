@@ -1,0 +1,51 @@
+/* 这样是注释 */
+
+/*
+CSS基本语法
+{
+color:red;
+}
+*/
+
+/* 这里的 css 代码，能够修改 page.html 中的样式 */
+/* 选择器，便于从 html 代码中，找到要修饰的内容 */
+/* 第一种：标签选择器(元素选择器)  <标签名> */
+
+/* 找到网页中所有的 h1  */
+h1{color:red;}
+
+p{font-size:20px;font-family:Georgia, serif;}
+
+span{color:red;}
+
+
+/* 类别选择器 根据标签中 class="" 名称进行搜索 */
+/* <span class="big"> */
+.big{font-size:3em;color:green;}
+
+.iphone{color:yellow;}
+
+/* 第三种选择器，根据标签中的 id="img1" 属性快速找到某个元素 */
+/* 修改第一个图片的高宽 */
+/* #img1{width:100px;height:100px;} */
+
+
+/* 复合选择器，把上面三个混合在一起使用 */
+/* 交集选择器，适用于标签嵌套 */
+img#img1{width:300px;height:300px;}
+div ul li{float:left;}
+
+/* 并集选择器，多个没有关系的标签，显示相同的效果 */
+div,p,img{margin:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
