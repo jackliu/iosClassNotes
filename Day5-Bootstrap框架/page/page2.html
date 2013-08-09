@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>布局页面</title>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all"  />
+        
+        <style type="text/css">
+            /* div{text-align:center;} */
+            #main{
+                width:200px;
+                height:95px;
+                background-color:#567;
+            }
+            
+            #sina{
+                width:87px;
+                height:37px;
+                background-color:#46a3cf;
+                text-align:center;
+                margin:2px 2px 4px 2px;
+                padding:5px 0px 0px 4px;
+            }
+            
+            #tencent{
+                width:87px;
+                height:37px;
+                background-color:#46a3cf;
+                text-align:center;
+                margin:4px 2px 2px 2px;
+                padding:5px 0px 0px 4px;
+            }
+            
+            #qq{
+                width:87px;
+                height:84px;
+                background-color:#ee7736;
+                text-align:center;
+                margin:2px;
+                padding:5px 0px 0px 5px;
+            }
+        </style>
+   </head>
+   <body>
+       
+
+       <!-- 外围块，限定总体的高、宽 -->
+       <div id="main">
+       <div class="row">
+           <div class="span1.5">
+                   <div id="sina">
+                       新浪微博</div>
+                   <div id="tencent">
+                       腾讯微博</div>
+           </div>
+           <div class="span2" id="qq">
+               QQ群组
+           </div>
+           <div class="span9"></div>
+       </div>
+       </div>
+       
+   </body>
+</html>

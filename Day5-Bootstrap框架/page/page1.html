@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>高仿网页1</title>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all"  />
+        <style type="text/css">
+            #menu{
+                height:46px;
+                background-color:#FCFCFB;
+            }
+            #main{
+                height:636px;
+                background-color:#F8F6E5;
+            }
+            /* 背景图片上移动 */
+            #background{
+                position:relative;
+                top:-90px;
+                left:0px;
+            }
+            /* 下载内容下移动 */
+            #download{
+                position:relative;
+                top:250px;
+                left:30px;
+            }
+            /* 覆盖背景的图片 */
+            #topimg{
+                position:absolute;
+                top:129px;
+                left:255px;
+                z-index:10;
+            }
+        </style>
+    </head>
+    <body>
+     
+        <!-- 顶部菜单 -->
+        <div id="menu" class="row">
+            <div class="span1">
+                <a href="#"><img src="image/brow.png" /></a>
+            </div>
+            <div class="span1">
+                <a href="#"><img src="image/mac.png" /></a>
+            </div>
+            <div class="span1">
+                <a href="#"><img src="image/iphone.png" /></a>
+            </div>
+            <div class="span1 offset8">
+                <a href="#"><img src="image/account.png" /></a>
+            </div>
+        </div>
+        <!-- 主要内容区域 -->
+        <div id="main" class="row">
+            <div class="span4 offset2">
+                <img src="image/background.png" id="background" />
+                <img src="image/img1.png" id="topimg" />
+            </div>
+            <div class="span6" id="download">
+                <p>软件功能描述</p>
+                <img src="image/Solar_DownloadLiv.png" />
+            </div>
+        </div>
+        
+        
+        
+        
+    </body>
+</html>
