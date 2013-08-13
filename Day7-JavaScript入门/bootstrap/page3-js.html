@@ -1,0 +1,56 @@
+<!-- 声明下面使用哪个版本的 HTML 5.0 -->
+<!DOCTYPE html>
+
+<!-- 根节点 -->
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<title>Cobook.co</title>
+		<!-- 专门放 CSS 代码 -->
+		<style type="text/css"></style>
+		<!-- 专门放 javaScript 代码 -->
+		<script type="text/javascript">
+			//注释
+			//测试 脚本代码是否能够加载
+			//alert("hello JavaScript");
+			
+			
+		</script>
+		
+	</head>
+	<body>
+	   <!-- 点击按钮，修改文字 -->
+	   <input type="text" id="username" name="" value=""  /><br />
+	   <!-- javaScript是事件驱动的语言 -->
+	   <!-- 当鼠标点击时 -->
+	   <button onclick="document.getElementById('username').value='Hello';">按钮1</button><br />
+		
+		<!-- 分割线 -->
+		<hr />   
+	
+	   <span id="message" ></span><br/ >
+	   <button onclick="document.getElementById('message').innerHTML='Hello';">按钮2</button>
+	   
+		<hr />
+		
+		<!-- 找到 img 元素，修改 src 属性值 -->
+		<img src="img/karlis-lauva.jpg" id="img1" /> <br />
+		<button 
+onclick="document.getElementById('img1').src='img/mikelis-vindavs.jpg';">换图片</button>
+	
+	    <hr />
+	    <!-- 修改标签中的 style 属性 -->
+	    <span id="cssname" style="color:red;font-size:3em;"  >Hello</span>
+	    <button 
+onclick="document.getElementById('cssname').style='color:red;font-size:5em;';">换CSS</button>
+	    
+	    
+	    
+	    
+	    
+	</body>
+</html>
+
+
+
+

@@ -1,0 +1,131 @@
+html, body { 
+	background-color: #140202; 
+	margin: 0; 
+	padding: 0; 
+	font: normal normal normal 1em/1.6 "Helvetica Neue", Arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+a { text-decoration: none; color: #3698c6; }
+a img { border: none; }
+
+h3 a { color: #444; }
+
+article, section {
+	display: block;
+}
+
+hgroup h3 { 
+	font-size: 1.8em; 
+	color: #444; 
+	margin-top: -.4em; 
+	margin-bottom: .8em; 
+	line-height: 1.1; 
+	display: block; 
+	font-style: normal; 
+	letter-spacing: -.045em; 
+}
+
+
+/* accessibility
+------------------------------------------------------------------ */
+hr, .skip-to-content { display: none; }
+
+a img { border: none; }
+
+.stage {
+	width: 84%;
+	margin: 0 auto;
+	position: relative;
+	min-width: 280px;
+	max-width: 860px;
+}
+
+.header { background-color: #ad1a39; }
+.header .stage { height: 6em; }
+
+
+/* logo
+------------------------------------------------------------------ */
+h1 {
+	background: transparent url('/img/fredhq.png') scroll no-repeat 0 0;
+	margin: 0;
+	position: absolute;
+	bottom: 16px;
+	left: 0;
+	line-height: 1;
+	font-size: 2.5em;
+	width: 125px; 
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+h1 span { font-variant: small-caps; }
+h1 a { color: #fff; display: block; }
+
+/* nav
+------------------------------------------------------------------ */
+nav { display: block; position: absolute; bottom: 0px; right: -.5em; }
+nav ul { float: right; list-style: none; margin: 0; padding: 0; }
+nav li { float: left; padding: .3em .4em; }
+nav a { display: block; padding: .4em .6em 10px; color: #ffffff; text-transform: lowercase; text-decoration: none; }
+nav li:last-child, nav li:last-child a { margin-right: -.6em; }
+nav li.active { background: transparent url('/img/bg/nav/inverse-active.png') scroll no-repeat 50% 100%; }
+
+.content { 
+	background-color: #fff; 
+	padding-bottom: 1em; 
+	padding-top: 1em;
+	width: 100%; 
+	overflow: hidden;
+	min-height: 300px;
+}
+
+#footer {
+	color: #666061;
+	position: relative;
+	z-index: 60;
+	background: transparent url('/img/bg/flourishes/footer.jpg') scroll no-repeat 50% 0;
+}
+
+#footer .stage {
+	background: transparent url('/img/bg/footer.png') scroll no-repeat 50% 24px;
+	font-size: 0.65em;
+	font-family: "Lucida Grande", "Lucida Sans", sans-serif;
+	padding: .25em 0 2em;
+	text-align: center;
+	min-height: 160px;
+}
+
+#footer .copyright {
+	color: #602e39;
+	font-size: 0.85em;
+	width: 46em;
+	margin: 21px auto;
+	text-align: left;
+	text-shadow: 0 0 12px #000;
+}
+
+	#footer .copyright div {
+		float: left;
+		width: 30%;
+		margin-left: 100px;
+	}
+	
+	#footer .copyright .part1 {
+		text-align: right;
+		margin-left: 0;
+	}
+	
+	#footer .copyright .part2 {
+		float: right;
+	}
+
+#footer img {
+	padding: 43px 0 0em 1px;
+	margin-bottom: -2px;
+	width: 100px;
+	opacity: 0.8;
+}

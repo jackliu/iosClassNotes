@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<title>Cobook.co</title>
+		
+		<!-- 链接 样式 css 文件 -->
+    	 <link href="css/bootstrap2.min.css" rel="stylesheet">
+    	 <!-- Google 字体 -->
+    	 <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+    	 
+    	 <!-- 首页自定义样式 -->
+    	 <style type="text/css">
+    	 	 #shangmian{
+    	 	 	height:1500px;
+    	 	 	background:url(img/RusticWood1.png);
+    	 	 }
+    	 	 /* 设置 菜单的样式 */
+    	 	 #menu{
+    	 	 	height:90px;
+    	 	 	background:#E6E6E6;
+    	 	 	margin-top:100px;
+    	 	 	border-radius: 10px;
+    	 	 }
+    	 	 #cobook{
+    	 	 	background:#DFDFDF;
+    	 	 	padding-top:36px;
+    	 	 	padding-bottom:30px;
+    	 	 	font-size:2.6px;
+    	 	 	/*font-size:1.7em;
+    	 	 	font-family: 'Nosifer', cursive;*/
+    	 	 }
+    	 	 #download{
+    	 	 	background:url(img/menu.png);
+    	 	 	padding-top:40px;
+    	 	 	padding-top:36px;
+    	 	 	padding-bottom:36px;
+    	 	 	font-size:2.6em; 
+    	 	 }
+    	 	 #mianshu{
+    	 	 	margin-top:30px;
+    	 	 }
+    	 	 /* 对 image 块，进行相对定位，只移动它本身位置，不影响其他元素 */
+    	 	 #image{
+    	 	 	position:relative;
+				left:-80px;
+				top:-150px;
+				z-index:5;
+    	 	 }
+    	 	 #screen{
+    	 	 	position:relative;
+				left:74px;
+				top:-476px;
+				z-index:10;
+    	 	 }
+    	 	 /*  下面的样式  */
+    	 	 #xiamian{
+    	 	 	margin-top:30px;
+    	 	 	margin-bottom:30px;
+    	 	 	padding:10px;
+    	 	 	font-size:2.5ex;
+    	 	 	color:#999;
+    	 	 }
+    	 	 
+    	 	 ul {list-style-type : none;}
+    	 </style>
+	
+	     <!-- "关于我们"的样式 -->
+	     <style type="text/css">
+	       #logo{position:relative;
+				left:-20px;
+				top:-134px;
+				z-index:10;
+	        }
+	        #cobook{
+	        	font-size:2.6em;
+	        	font-family: 'Libre Baskerville', serif;
+	        }
+	        #list{
+	        	margin-top:25px;
+	        }
+	        /* 给所有人的照片，添加边框 */
+	     	.myborder{
+	     		border:#eee solid 30px; /*顺时针 上 右 下 左 */
+	     		width:229px;
+	     		height:229px;
+	     		border-radius: 10px;
+	     		margin-bottom:10px;
+	     	}
+	     	
+	     	#we{
+	     		font-size:4em;
+	     		color:#FFF;
+	     	}
+	     	#get{
+	     		color:#FFF;
+	     		font-size:4ex;
+	     	}
+	     	#email{
+	     		color:#CD5E36;
+	     		font-size:4ex;
+	     	}
+	     	#emailus{
+	     		margin-bottom:20px;
+	     	}
+	     </style>
+	</head>
+	<body>
+	    <!-- 上面部分 -->
+	    <div id="shangmian">
+	    	<div class="container">
+	    	    <!-- 第一行、菜单 -->
+	    	    
+    			<div class="row" id="menu">
+    				<div class="span2" id="cobook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cobook</div>
+    				<div class="span7 offset3" id="list">
+    					<div class="navbar">
+							<div class="navbar-inner">
+	    							<div class="nav-collapse">
+              							<ul class="nav">
+											<li><a href="#">AppTour</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Press</a></li>
+											<li class="active"><a href="#">AboutUs</a></li>
+											<li><a href="#">Help</a></li>
+											<li><a href="#">GetCobook</a></li>
+              							</ul>
+	    							 </div>
+							</div>
+      					</div>
+    				</div>
+    			</div>
+    			<img src="img/logo.svg"  id="logo" />
+    			
+    			<!-- 第二行，联系邮箱 -->
+    			<div class="row" id="emailus">
+    				<div class="span9 offset3">
+    					<span id="we">We are Cobook.</span>
+    					<p><span id="get">Get in touch:</span>
+      						<span id="email">team@cobook.co</span>
+    					</p>
+  				</div>
+    				
+    			</div>
+    			
+    			<!-- 第二行，员工照片墙 -->
+    			<div class="row">
+    				<div class="span4 myborder">
+    					<img src="img/karlis-lauva.jpg" width="229px" height="229px" />
+    					<span>Karlis Lauva</span>
+    				</div>
+    				<div class="span4 myborder">
+    					<img src="img/kaspars-dancis.jpg" width="229px" height="229px" />
+    				</div>
+    				<div class="span4 myborder">
+    					<img src="img/mikelis-vindavs.jpg" width="229px" height="229px" />
+    				</div>	
+    			</div>
+    			
+    			
+    			<!-- 第二行，员工照片墙 -->
+    			<div class="row">
+    				<div class="span4 myborder">
+    					<img src="img/karlis-lauva.jpg" width="229px" height="229px" />
+    				</div>
+    				<div class="span4 myborder">
+    					<img src="img/kaspars-dancis.jpg" width="229px" height="229px" />
+    				</div>
+    				<div class="span4 myborder">
+    					<img src="img/mikelis-vindavs.jpg" width="229px" height="229px" />
+    				</div>	
+    			</div>
+    			
+    			<!-- 第二行，员工照片墙 -->
+    			<div class="row">
+    				<div class="span4 myborder">
+    					<img src="img/karlis-lauva.jpg" width="229px" height="229px" />
+    				</div>
+    				<div class="span4 myborder">
+    					<img src="img/kaspars-dancis.jpg" width="229px" height="229px" />
+    				</div>
+    				<div class="span4 myborder">
+    					<img src="img/mikelis-vindavs.jpg" width="229px" height="229px" />
+    				</div>	
+    			</div>
+    			
+    			
+  			</div>
+	    </div>
+	    
+	    <!-- 下面部分 -->
+	    <div id="xiamian">
+	        <!-- 设置居中显示的框架 --> 
+	    	<div class="container">
+	    	    <!-- 一行 四列布局 -->
+    			<div class="row">
+    				<div class="span3">
+    					<ul>
+    						<li>About US</li>
+    						<li>Jobs</li>
+    						<li>Press</li>
+    						<li>Blog</li>
+    					</ul>
+    				</div>
+    				<div class="span3">
+    					<ul>
+    						<li>App Tour</li>
+    						<li>Help</li>
+    						<li>Privacy Poliy</li>
+    						<li>Terms of Service</li>
+    					</ul>
+    				</div>
+    				<div class="span3">
+    					<ul>
+    						<li>App Tour</li>
+    						<li>Help</li>
+    						<li>Privacy Poliy</li>
+    						<li>Terms of Service</li>
+    					</ul>
+    				</div>
+    				<div class="span3">
+    					<p>Sign up for newsletter</p>
+    					<div class="input-append">
+    						<input class="span2" id="" size="16" type="text" />
+    						<button class="btn" type="button">OK</button>
+    					</div>
+    					<p>&copy 2013 Cobook</p>
+    				</div>
+    			</div>
+  			</div>
+	    </div>
+	
+
+	
+	</body>
+</html>
+
+
+
+

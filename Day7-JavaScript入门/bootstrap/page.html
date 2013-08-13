@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<title>Cobook.co</title>
+		
+		<!-- 链接 样式 css 文件 -->
+    	 <link href="css/bootstrap.css" rel="stylesheet">
+    	 <!-- Google 字体 -->
+    	 <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+    	 
+    	 <!-- 自定义样式 -->
+    	 <style type="text/css">
+    	 	 #shangmian{
+    	 	 	height:600px;
+    	 	 	background:url(img/RusticWood1.png);
+    	 	 }
+    	 	 /* 设置 菜单的样式 */
+    	 	 #menu{
+    	 	 	height:90px;
+    	 	 	background:#aaeeaa;
+    	 	 	margin-top:100px;
+    	 	 }
+    	 	 #cobook{
+    	 	 	background:#DFDFDF;
+    	 	 	padding-top:36px;
+    	 	 	padding-bottom:36px;
+    	 	 	font-size:2.6px;
+    	 	 	/*font-size:1.7em;
+    	 	 	font-family: 'Nosifer', cursive;*/
+    	 	 }
+    	 	 #download{
+    	 	 	background:url(img/menu.png);
+    	 	 	padding-top:40px;
+    	 	 	padding-top:36px;
+    	 	 	padding-bottom:36px;
+    	 	 	font-size:2.6em; 
+    	 	 }
+    	 	 #mianshu{
+    	 	 	margin-top:30px;
+    	 	 }
+    	 	 /* 对 image 块，进行相对定位，只移动它本身位置，不影响其他元素 */
+    	 	 #image{
+    	 	 	position:relative;
+				left:-80px;
+				top:-150px;
+				z-index:5;
+    	 	 }
+    	 	 #screen{
+    	 	 	position:relative;
+				left:74px;
+				top:-476px;
+				z-index:10;
+    	 	 }
+    	 	 /*  下面的样式  */
+    	 	 #xiamian{
+    	 	 	margin-top:30px;
+    	 	 	margin-bottom:30px;
+    	 	 	padding:10px;
+    	 	 	font-size:2.5ex;
+    	 	 	color:#999;
+    	 	 }
+    	 	 
+    	 	 ul {list-style-type : none;}
+    	 </style>
+	</head>
+	<body>
+	    <!-- 上面部分 -->
+	    <div id="shangmian">
+	    	<div class="container">
+	    	    <!-- 第一行、菜单 -->
+    			<div class="row" id="menu">
+    				<div class="span4 offset1" id="cobook">Cobook Contacts</div>
+    				<div class="span4 offset3" id="download">
+    					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    					&nbsp;&nbsp;
+    					Download</div>
+    			</div>
+    			<!-- 第二行，文字、手图片 -->
+    			<div class="row">
+    				<div class="span6" id="mianshu">
+						 <div class="hero-unit">
+  							<h2>Complete your address book</h2>
+  							<p>Get automatic contact pictures, social
+						 profiles and more.</p>
+  							<p><a class="btn btn-primary btn-large">
+      							Watch video</a></p>
+						</div>
+    				</div>
+    				<div class="span6" id="image">
+    					<img src="img/hand.png" width="496px" height="498px" />
+    					<img src="img/screen2.jpg"  id="screen"
+    					   width="162px" height="162px" />
+    				</div>
+    			</div>
+  			</div>
+	    </div>
+	    
+	    <!-- 下面部分 -->
+	    <div id="xiamian">
+	        <!-- 设置居中显示的框架 --> 
+	    	<div class="container">
+	    	    <!-- 一行 四列布局 -->
+    			<div class="row">
+    				<div class="span3">
+    					<ul>
+    						<li>About US</li>
+    						<li>Jobs</li>
+    						<li>Press</li>
+    						<li>Blog</li>
+    					</ul>
+    				</div>
+    				<div class="span3">
+    					<ul>
+    						<li>App Tour</li>
+    						<li>Help</li>
+    						<li>Privacy Poliy</li>
+    						<li>Terms of Service</li>
+    					</ul>
+    				</div>
+    				<div class="span3">
+    					<ul>
+    						<li>App Tour</li>
+    						<li>Help</li>
+    						<li>Privacy Poliy</li>
+    						<li>Terms of Service</li>
+    					</ul>
+    				</div>
+    				<div class="span3">
+    					<p>Sign up for newsletter</p>
+    					<div class="input-append">
+    						<input class="span2" id="" size="16" type="text" />
+    						<button class="btn" type="button">OK</button>
+    					</div>
+    					<p>&copy 2013 Cobook</p>
+    				</div>
+    			</div>
+  			</div>
+	    </div>
+	
+
+	
+	</body>
+</html>
+
+
+
+

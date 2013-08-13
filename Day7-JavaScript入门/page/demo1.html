@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>JavaScript Demo</title>
+        
+        <style type="text/css">
+            /* 切换前样式 */
+            .aaa{
+                background:#aaa;
+                width:300px;
+                height:300px;
+            }
+            /* 切换后样式 */
+            .bbb{
+                background:#e6e6e6;
+                width:500px;
+                height:500px;
+            }
+        </style>
+        
+    </head>
+    <body onload="alert('页面加载完毕');">
+        <h1>Demo1 JavaScript 事件驱动</h1>
+        <div>
+          <!-- 点击事件 -->
+          <button onclick="alert('你好');">点击试试</button>
+          <!-- 鼠标覆盖事件 -->
+            <img src="img/all-pixels.png" width="200" height="350"  onmouseover="alert('你好2');" />
+          <!-- 值改变事件 -->
+            <input type="text"  value="" onChange="alert('输入值');"
+                onFocus="alert('获得焦点请输入数据')"
+                onblur="alert('失去焦点，输入完成');"
+                onkeyup="alert('键盘操作');"
+             />
+        </div>
+        
+        <hr />
+        
+        <h1>Demo2 JavaScript DOM 对象</h1>
+        <div >
+            <button onclick="window.close();">关闭窗口</button>
+            <button onclick="window.confirm('确认吗');">确认按钮</button>
+        </div>
+        
+        <hr />
+        
+        <h1>Demo3 JavaScript document 对象</h1>
+        <div >
+            <!-- 目前没有信息，页面没有任何显示 -->
+            <span id="aa"></span>
+            
+            <!--1 点击后，找到 id="aa" 的标签 -->
+            <!--2 改变标签内的文字 -->
+            <button onclick="document.getElementById('aa').innerHTML='HelloJavaScript';" >在标签中写入文字</button>
+            
+            <div class="aaa" id="css">你好</div>
+            <!-- 通过 DOM 找到这个标签对象 -->
+            <!-- 通过 ECMA 修改该对象的 style 属性值 -->
+            <button onclick="document.getElementById('css').style='background:#e6e6e6;width:500px;height:500px;';" >切换样式</button>
+            
+            <!-- 点击按钮，切换图片 -->
+            
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>

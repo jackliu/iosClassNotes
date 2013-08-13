@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<title>Cobook.co</title>
+	</head>
+	<body>
+	   <img class="lazy" src="img/grey.gif" 
+	   		data-original="img/janis-dancis.jpg" 
+	   		width="416" height="416" />
+	   <br />		
+	   <img class="lazy" src="img/grey.gif" 
+	   		data-original="img/karlis-lauva.jpg" 
+	   		width="416" height="416" />
+	   <br />
+	   <img class="lazy" src="img/grey.gif" 
+	   		data-original="img/kaspars-dancis.jpg" 
+	   		width="416" height="416" />
+	   <br />
+	   <img class="lazy" src="img/grey.gif" 
+	   		data-original="img/mikelis-vindavs.jpg" 
+	   		width="416" height="416" />
+	   <br />
+	   <img class="lazy" src="img/grey.gif" 
+	   		data-original="img/rihards-skuja.jpg" 
+	   		width="416" height="416" />	
+	  <br />
+	  <img class="lazy" src="img/grey.gif" 
+	   		data-original="img/anda-berina.jpg" 
+	   		width="416" height="416" />										
+	  <br />
+	   		
+	    <!-- 引入外部的 jQuery 文件 -->
+		<script type="text/javascript" src="js/jquery-1.8.0.min.js"> </script>
+		<script type="text/javascript" src="js/jquery.lazyload.js" ></script>
+		<!-- 专门放 javaScript 代码 -->
+		<script type="text/javascript">	
+			$(document).ready(function(){
+				$("img").lazyload({
+              		effect : "fadeIn"
+              	});
+			});
+		</script>
+	</body>
+</html>
+
+
+
+
