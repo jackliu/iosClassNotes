@@ -17,8 +17,16 @@
                 //3 完成 Demo1，得到按钮
                 $("#bt1").click(function(){
                       //4 得到文字标签，修改文字内容
+                //使用 .html("aaa") 往标签中写入内容
             $("#word").html("hello jquery").addClass("aaa").show(2000);
                 });
+                              
+                //使用 .html() 获得标签中的文本
+$("#bt11").click(function(){
+                 alert($("#word2").html());
+            });
+                              
+                              
                               
                  
                 //5  切换图片
@@ -49,7 +57,14 @@
     <body>
         <h1>Demo1 修改文字</h1>
         <span id="word" style="display:none;"></span>
+        
         <button id="bt1">修改</button>
+        
+        <br />
+        
+        <span id="word2" >hello 这里本来就有值</span>
+        <button id="bt11">修改</button>
+        
         
         <br />
         

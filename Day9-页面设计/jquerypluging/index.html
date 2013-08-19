@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>插件练习</title>
+        
+        <script type="text/javascript" src="js/jquery-1.8.0.min.js" ></script>
+        <script type="text/javascript" src="js/jquery.zoom-min.js" ></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+               //这里编写我们的代码
+               // Demo 1
+        $("a.photo").zoom({url: "img/Icon.png"});
+                              
+               // Demo 2
+               $("img").parent().zoom();
+                              
+               // Demo 3
+               //参数指定何种事件发生后，尺寸放大 {}
+              $("#aa").zoom({on:"click"});
+            });
+        </script>
+        
+    </head>
+    <body>
+       <a  class="photo" href="#">Demo1</a>
+       
+       <br />
+       <!-- 代码设置，图片尺寸是实际图片尺寸的一半 -->
+        <span style="display:inline-block;" >
+            <img src="img/png0.png" width="125px" height="125px" />
+        </span>
+        
+        <div id="aa">
+            <img src="img/png1.png" width="125px" height="125px" />
+        </div>
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
