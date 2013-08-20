@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0991F417C34C730088197D /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0991F317C34C730088197D /* Reveal.framework */; };
+		5A0991F617C34DCB0088197D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0991F517C34DCB0088197D /* CFNetwork.framework */; };
+		5A0991F817C34DD20088197D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0991F717C34DD20088197D /* QuartzCore.framework */; };
 		5A41348617C20CD000C89CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A41348517C20CD000C89CE4 /* UIKit.framework */; };
 		5A41348817C20CD000C89CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A41348717C20CD000C89CE4 /* Foundation.framework */; };
 		5A41348A17C20CD000C89CE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A41348917C20CD000C89CE4 /* CoreGraphics.framework */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A0991F317C34C730088197D /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		5A0991F517C34DCB0088197D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5A0991F717C34DD20088197D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5A41348217C20CCF00C89CE4 /* demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A41348517C20CD000C89CE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A41348717C20CD000C89CE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,9 +50,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0991F817C34DD20088197D /* QuartzCore.framework in Frameworks */,
+				5A0991F617C34DCB0088197D /* CFNetwork.framework in Frameworks */,
 				5A41348617C20CD000C89CE4 /* UIKit.framework in Frameworks */,
 				5A41348817C20CD000C89CE4 /* Foundation.framework in Frameworks */,
 				5A41348A17C20CD000C89CE4 /* CoreGraphics.framework in Frameworks */,
+				5A0991F417C34C730088197D /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +65,8 @@
 		5A41347917C20CCF00C89CE4 = {
 			isa = PBXGroup;
 			children = (
+				5A0991F717C34DD20088197D /* QuartzCore.framework */,
+				5A0991F517C34DCB0088197D /* CFNetwork.framework */,
 				5A41348B17C20CD000C89CE4 /* demo1 */,
 				5A41348417C20CCF00C89CE4 /* Frameworks */,
 				5A41348317C20CCF00C89CE4 /* Products */,
@@ -73,6 +84,7 @@
 		5A41348417C20CCF00C89CE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A0991F317C34C730088197D /* Reveal.framework */,
 				5A41348517C20CD000C89CE4 /* UIKit.framework */,
 				5A41348717C20CD000C89CE4 /* Foundation.framework */,
 				5A41348917C20CD000C89CE4 /* CoreGraphics.framework */,
@@ -259,9 +271,15 @@
 		5A4134A617C20CD000C89CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo1/demo1-Prefix.pch";
 				INFOPLIST_FILE = "demo1/demo1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -270,9 +288,15 @@
 		5A4134A717C20CD000C89CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo1/demo1-Prefix.pch";
 				INFOPLIST_FILE = "demo1/demo1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -297,6 +321,7 @@
 				5A4134A717C20CD000C89CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
