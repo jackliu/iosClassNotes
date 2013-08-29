@@ -10,6 +10,7 @@
 		5A1A6D4017CF1AB400B0483B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A6D3F17CF1AB400B0483B /* main.c */; };
 		5A1A6D4217CF1AB400B0483B /* cCodeDay18.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A1A6D4117CF1AB400B0483B /* cCodeDay18.1 */; };
 		5A1A6D5017CF2F3700B0483B /* myarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A6D4F17CF2F3700B0483B /* myarray.c */; };
+		5A2E750217CF451900E2089A /* homework.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E750117CF451900E2089A /* homework.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		5A1A6D4117CF1AB400B0483B /* cCodeDay18.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cCodeDay18.1; sourceTree = "<group>"; };
 		5A1A6D4E17CF2F1C00B0483B /* myarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myarray.h; sourceTree = "<group>"; };
 		5A1A6D4F17CF2F3700B0483B /* myarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myarray.c; sourceTree = "<group>"; };
+		5A2E750117CF451900E2089A /* homework.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = homework.c; sourceTree = "<group>"; };
+		5A2E750317CF452500E2089A /* homework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				5A1A6D4117CF1AB400B0483B /* cCodeDay18.1 */,
 				5A1A6D4E17CF2F1C00B0483B /* myarray.h */,
 				5A1A6D4F17CF2F3700B0483B /* myarray.c */,
+				5A2E750117CF451900E2089A /* homework.c */,
+				5A2E750317CF452500E2089A /* homework.h */,
 			);
 			path = cCodeDay18;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			files = (
 				5A1A6D4017CF1AB400B0483B /* main.c in Sources */,
 				5A1A6D5017CF2F3700B0483B /* myarray.c in Sources */,
+				5A2E750217CF451900E2089A /* homework.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +226,7 @@
 				5A1A6D4717CF1AB400B0483B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
