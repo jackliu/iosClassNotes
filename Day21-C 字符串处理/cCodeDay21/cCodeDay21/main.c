@@ -7,6 +7,9 @@
 //
 
 #include <stdio.h>
+//系统专门定义的 ，处理字符串的函数头文件
+#include <string.h>
+#include <stdlib.h>
 
 int main(int argc, const char * argv[])
 {
@@ -59,10 +62,15 @@ int main(int argc, const char * argv[])
      */
     
     
-    
+    /*
     //通过人工一个字符一个字符的给一个字符串赋值
     //定义一个字符串数组
-    char sarr[100];
+    char sarr[10];
+    //手动设置内存中的所有  默认值
+    //参数一，数组名；参数二，初始化的值；参数三，设置几个这样的值
+    memset(sarr, '\0', 10);
+    
+     //纯手工一个个赋值
     char c;
     printf("请输入字符串内容  \n");
     //循环，每次让用户输入一个字符
@@ -77,16 +85,82 @@ int main(int argc, const char * argv[])
         sarr[i] = c;
         //scanf("%c",&sarr[i]);
     }
+     
+    //调用系统函数，一次性得到所有输入字符
+    //gets(sarr);  //无法控制输入字符长度，容易内存溢出
+    
+    //调用系统函数，一次性输出所有字符
+    //puts(sarr);
+    
+    //printf("使用系统提供的 文件输入输出 \n");
+    //使用文件输入函数
+    fgets(sarr, 10, stdin);  //系统标准输入流，可以指定输入长度
+    
+    puts(sarr);
+    
     
     printf("用户输入的内容为  \n");
     for (int i=0; i<100; i++) {
         printf("%c     ",sarr[i]);
     }
+     */
     
     
     
     
+    /*
+    printf("Demo 5   字符串的操作:比较、拷贝、格式转换、大小写转换 \n");
+    //比较 string compare  -> int strcmp(str1,str2);
+    //返回值为 0 的时候，两个字符串内容完全相同。非 0  不相同(-1  1)
+    char str1[10];
+    char str2[10];
+    fgets(str1, 10, stdin);
+    fgets(str2, 10, stdin);
     
+    int result = strcmp(str1, str2);
+    printf("比较结果为  %d  \n",result);
+    
+    //if (strcmp(str1, str2)) {
+    //str1 == str2
+    if (strcmp(str1, str2)==0){
+        printf("两个字符串相同  \n");
+    }else{
+        printf("两个字符串不同   \n");
+    }
+    
+    
+    //定义，得到 10 个长度的空间
+    char str3[10];
+    //赋值，每个空间都是 \0
+    memset(str3, '\0', 10);
+    //真正的在空间里面设置我们需要存放的字符串内容
+    strcpy(str3, "hello");
+    
+    
+    double d;
+    scanf("%lf",&d);
+    
+    char str4[]="123.123";
+    d = atof(str4);
+    */
+    
+    //大小写转换
+    char str5[]="hello i have iphone 5s";
+    //strupr(str5);   //XCode 中不支持    
+    
+    //字符查找
+    
+    //查找字符串中 i 第一次出现的位置
+    //strchr
+    char *find;
+    find = strchr(str5, 'i');
+    printf("按照字符查找 : %s \n",find);
+    
+    //查找字符串中 iphone 第一次出现的位置
+    //strstr
+    char *find2;
+    find2 = strstr(str5, "iphone");
+    printf("按照字符串查找 : %s \n",find2);
     
     return 0;
 }
