@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A94303417D7268200A4A835 /* work.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A94303317D7268200A4A835 /* work.c */; };
 		5A98BE5717D703B700B02C0B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A98BE5617D703B700B02C0B /* main.c */; };
 		5A98BE5917D703B700B02C0B /* cCodeDay23.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A98BE5817D703B700B02C0B /* cCodeDay23.1 */; };
 		5A98BE6217D7082E00B02C0B /* Demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A98BE6117D7082E00B02C0B /* Demo.c */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A94303217D7260600A4A835 /* work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = work.h; sourceTree = "<group>"; };
+		5A94303317D7268200A4A835 /* work.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = work.c; sourceTree = "<group>"; };
 		5A98BE5317D703B700B02C0B /* cCodeDay23 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cCodeDay23; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A98BE5617D703B700B02C0B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5A98BE5817D703B700B02C0B /* cCodeDay23.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cCodeDay23.1; sourceTree = "<group>"; };
@@ -44,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A94303117D725F500A4A835 /* work */ = {
+			isa = PBXGroup;
+			children = (
+				5A94303217D7260600A4A835 /* work.h */,
+				5A94303317D7268200A4A835 /* work.c */,
+			);
+			name = work;
+			sourceTree = "<group>";
+		};
 		5A98BE4A17D703B700B02C0B = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +75,7 @@
 		5A98BE5517D703B700B02C0B /* cCodeDay23 */ = {
 			isa = PBXGroup;
 			children = (
+				5A94303117D725F500A4A835 /* work */,
 				5A98BE5F17D707F200B02C0B /* code */,
 				5A98BE5617D703B700B02C0B /* main.c */,
 				5A98BE5817D703B700B02C0B /* cCodeDay23.1 */,
@@ -132,6 +145,7 @@
 			files = (
 				5A98BE5717D703B700B02C0B /* main.c in Sources */,
 				5A98BE6217D7082E00B02C0B /* Demo.c in Sources */,
+				5A94303417D7268200A4A835 /* work.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +242,7 @@
 				5A98BE5E17D703B700B02C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
