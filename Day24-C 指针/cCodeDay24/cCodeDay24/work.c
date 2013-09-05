@@ -61,6 +61,9 @@ void work1()
     
 //(13)	将age的地址赋值给head，即使head重新指向age，查看执行结果。
     head = &age;
+    printf("-----head 的值为 %p  \n",head);
+    printf("-----*head 的值为 %lf  \n",*head);
+    
     
 //(14)	通过tail将变量salary的值加100。
     *tail+=100;
@@ -75,3 +78,58 @@ void work1()
     
     
 }
+
+
+/*
+ 编写一个程序，程序能使用指针完成输出变量值的功能：定义所有基本数据类型的变量并初始化变量的值，然后定义所有基本数据类型的指针并使用指针输出各变量的值；再使用指针改变各变量的值，使用变量重新输出。
+ */
+void work2(){
+    //(1)  定义所有基本数据类型的变量并初始化变量的值
+    int a = 10;
+    long b = 10000l;
+    float c = 32.6f;
+    double d = 344.90;
+    char e ='u';
+    
+    //(2) 定义所有基本数据类型的指针并使用指针输出各变量的值
+    int *p1 = &a;
+    long *p2 = &b;
+    float *p3 = &c;
+    double *p4 = &d;
+    char *p5 = &e;
+    printf("a 的值为 %d  \n",*p1);
+    printf("b 的值为 %ld  \n",*p2);
+    printf("c 的值为 %f  \n",*p3);
+    printf("d 的值为 %lf  \n",*p4);
+    printf("e 的值为 %c  \n",*p5);
+    
+    //(3) 使用指针改变各变量的值，使用变量重新输出
+    *p1 = 46;
+    *p2 = 8898l;
+    *p3 = 454.7f;
+    *p4 = 787.33;
+    *p5 = '@';
+    
+    printf("a 的值为 %d  \n",*p1);
+    printf("b 的值为 %ld  \n",*p2);
+    printf("c 的值为 %f  \n",*p3);
+    printf("d 的值为 %lf  \n",*p4);
+    printf("e 的值为 %c  \n",*p5);
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
