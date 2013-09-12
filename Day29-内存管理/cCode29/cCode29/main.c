@@ -9,10 +9,16 @@
 #include <stdio.h>
 //系统标准函数库
 #include <stdlib.h>
+//导入字符串处理库
+#include <string.h>
+
+//导入作业的头文件
+#include "homeWork.h"
 
 
 int main(int argc, const char * argv[])
 {
+    /*
     //定义一个指针变量
     int *p;   //基本类型指针，没有分配空间
     //调用函数，手动分配空间
@@ -27,7 +33,7 @@ int main(int argc, const char * argv[])
     }
     
     //其他操作
-    
+    p++;
     
     //使用完毕，在同一个作用域中，记得释放所分配的内存
     //释放完毕  p 所指向的内存地址由系统随机分配
@@ -35,9 +41,65 @@ int main(int argc, const char * argv[])
     //为了防止出现下面还要使用 p 指针，防止野指针
     p = NULL;
     //p = 0;
+    p++;
+    */
+
+    //printf("Hello, HomeWork!\n");
+    //work1();
+    
+    /*
+    //定义字符串，测试 格式对齐
+    char *str;
+    str = (char *)malloc(100); //分配 100个字符的空间
+    if ( NULL == str ) {
+        exit(-1);
+    }
+    
+    //1  2  3
+    //h  e  l  l  o
+    //str = "hello World"; //实际使用 12 个字符空间
+    //- 让字符串右对齐，在 100 的内存空间中
+    //96 97   98  99  100
+    //W   o   r   l    d
+    //printf("%-12s",str);
+    
+    printf("%.3lf",123.78457348783);
+    
+    //释放内存空间
+    free(str);
+    str = NULL;
+    */
+    
+    /*
+    //输入输出单个字符
+    int gc = getchar();  //输入单个字符
+    printf("输入的字符是 \n"); //输出多个字符
+    putchar(gc);  //输出单个字符
+    
+    //输入输出多个字符
+    char *strr = NULL;
+    strr = (char *)malloc(100);
+    scanf("%s",strr);
+    printf("输入的字符串为 %s \n",strr);   
+    */
+    
+    //做文件操作，第一步看文件是否存在
+    FILE *file;
+    //指定文件路径，打开文件
+    file = fopen("/Users/liu/Documents/aaa.txt", "r");
+    //判断程序是否找到文件
+    if (NULL == file) {
+        printf("文件路径错误，请重新指定 \n");
+        exit(-1);  //stdlib.h
+    }
+    
+    printf("文件路径正确，请接着对文件进行读写操作 \n");
     
     
-    printf("Hello, World!\n");
+    
+    
+    
+    
     
     
     
