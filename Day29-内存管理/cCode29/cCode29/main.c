@@ -83,6 +83,7 @@ int main(int argc, const char * argv[])
     printf("输入的字符串为 %s \n",strr);   
     */
     
+    /*
     //做文件操作，第一步看文件是否存在
     FILE *file;
     //指定文件路径，打开文件
@@ -92,14 +93,61 @@ int main(int argc, const char * argv[])
         printf("文件路径错误，请重新指定 \n");
         exit(-1);  //stdlib.h
     }
-    
     printf("文件路径正确，请接着对文件进行读写操作 \n");
     
     
+    char name[20];
+    int pwd;
+    
+    //fscanf(file, "id=%d",&pwd);
+    //printf("pwd = %d \n",pwd);
+    
+    fscanf(file, "name=%5s password=%d",name,&pwd);
+    fclose(file);
+    printf("name = %s , pwd = %d \n",name,pwd);
+    */
     
     
+    /*
+    //字符指针
+    char str[]="name=marry password=1234";
+    char name[20];
+    int pswd;
+    
+    sscanf(str, "name=%s password=%d",name,&pswd);
+    printf("name = %s , pwd = %d \n",name,pswd);
+    
+    sprintf(str, "%s \'s pwd is %d",name,pswd);
+    printf("%s \n",str);
+    */
     
     
+    FILE *fp;
+    FILE *fo;
+    char ch;
+    if ((fp = fopen("/Users/liu/Documents/aaa.txt", "rt"))==NULL)
+    {
+        exit(-1);
+    }
+    
+    
+    if ((fo = fopen("/Users/liu/Documents/bbb.txt", "w"))==NULL)
+    {
+        exit(-1);
+    }
+    
+    ch = fgetc(fp);
+    /*
+    while (!feof(fp)) {
+        fputc(fgetc(fp), fo);
+    }
+    */
+    while (ch != EOF) {
+        putchar(ch);
+        fputc(ch, fo);
+        ch = fgetc(fp);
+    }
+    fclose(fp);
     
     
     
