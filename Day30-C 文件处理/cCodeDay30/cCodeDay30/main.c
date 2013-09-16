@@ -6,7 +6,10 @@
 //  Copyright (c) 2013年 liu. All rights reserved.
 //
 
+//使用 #include 关键字，导入 了很大的文件 stdio.h 500 多行代码
+//简单的用名字，导入一下，相当于把 500 行代码复制到该文件中
 #include <stdio.h>
+
 #include <stdlib.h>
 
 #define SAYHELLO "helloHJSAFHASDHFKJFHAJKSHFJKASHkhJSAHIIiausdifhasifhkhs ak jfkfkasjflakfjaljasklfjasfklsjdflskjoijfakjhsk\' jhjasdhfj "
@@ -15,7 +18,7 @@
 
 #define  LOG printf("hello")
 
-#define SAYHELLO "I love Shanghai"
+//#define SAYHELLO "I love Shanghai"
 
 
 void demo1();
