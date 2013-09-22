@@ -154,13 +154,15 @@ int main(int argc, const char * argv[])
         printf("非 不 OK \n");
     }
     
-    //////三元运算符  ?:
+    //////三元运算符  ?  :
     //对后面的结果，根据判断条件 二选一
     int num = 3>6?5:0;
     printf("num  = %d \n",num);
     
     double num2 = 12.5 >3.7 ? 100.6:26.4;
     double dd = num2 +10;
+
+    
     
     ///// 逗号运算符   ,
     //并列定义变量时使用
@@ -190,7 +192,11 @@ int main(int argc, const char * argv[])
     double d1 = 12;   //int 类型自动转换为 double
     int  i1 = (int)d1;   //double 类型自动转换为 int ??
     
+    int bb = 'a';         //从 char 到 int 自动转换
+    char cc = (char)100;  //从 int 到  char 强制转换
     
+    int  aa = -10;
+    unsigned int a = 10;
     
     return 0;
 }
