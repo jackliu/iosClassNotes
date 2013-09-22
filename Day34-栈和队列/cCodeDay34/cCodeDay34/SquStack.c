@@ -14,7 +14,7 @@
 //初始化一个栈，清空栈中所有值和 top 的位置
 SeqStack * initStack(SeqStack *s)
 {
-    s = (SeqStack *)malloc(sizeof(DataType)*StackSize);
+    s = (SeqStack *)malloc(sizeof(SeqStack));
     //指定初始栈顶的位置
     //数组实现栈，下标从 0 开始，-1紧挨着0的一个值
     s->top = -1;
