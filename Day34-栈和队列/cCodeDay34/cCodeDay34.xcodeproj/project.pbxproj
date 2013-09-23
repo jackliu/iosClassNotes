@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1527A417EFDA2100524962 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A1527A317EFDA2100524962 /* Queue.c */; };
+		5A1527A617EFF00C00524962 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A1527A517EFF00C00524962 /* BubbleSort.c */; };
 		5A68F30417EECC0700529F5B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A68F30317EECC0700529F5B /* main.c */; };
 		5A68F30617EECC0800529F5B /* cCodeDay34.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A68F30517EECC0700529F5B /* cCodeDay34.1 */; };
 		5A68F30E17EECEE700529F5B /* SquStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A68F30D17EECEE700529F5B /* SquStack.c */; };
@@ -26,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A1527A217EFD88A00524962 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		5A1527A317EFDA2100524962 /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		5A1527A517EFF00C00524962 /* BubbleSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
 		5A68F30017EECC0700529F5B /* cCodeDay34 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cCodeDay34; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A68F30317EECC0700529F5B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5A68F30517EECC0700529F5B /* cCodeDay34.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cCodeDay34.1; sourceTree = "<group>"; };
@@ -67,6 +72,9 @@
 				5A68F30517EECC0700529F5B /* cCodeDay34.1 */,
 				5A68F30C17EECC5400529F5B /* SquStack.h */,
 				5A68F30D17EECEE700529F5B /* SquStack.c */,
+				5A1527A217EFD88A00524962 /* Queue.h */,
+				5A1527A317EFDA2100524962 /* Queue.c */,
+				5A1527A517EFF00C00524962 /* BubbleSort.c */,
 			);
 			path = cCodeDay34;
 			sourceTree = "<group>";
@@ -124,6 +132,8 @@
 			files = (
 				5A68F30417EECC0700529F5B /* main.c in Sources */,
 				5A68F30E17EECEE700529F5B /* SquStack.c in Sources */,
+				5A1527A417EFDA2100524962 /* Queue.c in Sources */,
+				5A1527A617EFF00C00524962 /* BubbleSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +232,7 @@
 				5A68F30B17EECC0800529F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
