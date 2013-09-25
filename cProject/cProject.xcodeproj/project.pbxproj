@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A13C9A717F276B60056DF35 /* EmployeeView.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C9A617F276B60056DF35 /* EmployeeView.c */; };
+		5A13C9AA17F288980056DF35 /* MyHeader.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A13C9A917F288980056DF35 /* MyHeader.c */; };
 		5A42156517F1825A004ACB82 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A42156417F1825A004ACB82 /* main.c */; };
 		5A42156717F1825A004ACB82 /* cProject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A42156617F1825A004ACB82 /* cProject.1 */; };
 		5A42156F17F182EF004ACB82 /* MainView.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A42156E17F182EF004ACB82 /* MainView.c */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		5A13C9A517F276160056DF35 /* EmployeeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeView.h; sourceTree = "<group>"; };
 		5A13C9A617F276B60056DF35 /* EmployeeView.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EmployeeView.c; sourceTree = "<group>"; };
+		5A13C9A817F287C60056DF35 /* MyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeader.h; sourceTree = "<group>"; };
+		5A13C9A917F288980056DF35 /* MyHeader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyHeader.c; sourceTree = "<group>"; };
 		5A42156117F1825A004ACB82 /* cProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A42156417F1825A004ACB82 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5A42156617F1825A004ACB82 /* cProject.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cProject.1; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				5A42156E17F182EF004ACB82 /* MainView.c */,
 				5A13C9A517F276160056DF35 /* EmployeeView.h */,
 				5A13C9A617F276B60056DF35 /* EmployeeView.c */,
+				5A13C9A817F287C60056DF35 /* MyHeader.h */,
+				5A13C9A917F288980056DF35 /* MyHeader.c */,
 			);
 			path = cProject;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				5A42156517F1825A004ACB82 /* main.c in Sources */,
 				5A42156F17F182EF004ACB82 /* MainView.c in Sources */,
 				5A13C9A717F276B60056DF35 /* EmployeeView.c in Sources */,
+				5A13C9AA17F288980056DF35 /* MyHeader.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,20 +5,14 @@
 //  Created by liu on 13-9-25.
 //  Copyright (c) 2013年 liu. All rights reserved.
 //  后台员工管理界面
+#include "MyHeader.h"
 
 #ifndef cProject_EmployeeView_h
 #define cProject_EmployeeView_h
 
-//定义后台管理需要使用的属性和方法
-//定义一个保存员工信息的结构体
-typedef struct{
-    char name[20];
-    char password[6];
-    
-}Employee;
-
-//定义一个结构体数组，保存多个员工的信息
-//设计一个链表，动态保存增加的员工信息
+//定义全局变量---链表
+LinkList Head; //头节点
+Employee *loca;//当前节点
 
 
 
@@ -35,7 +29,8 @@ void printFindAllEmployee();
 void printSearchEmployee();
 
 
-
+//4 返回后台主界面
+void returnBack(int result);
 
 
 #endif
