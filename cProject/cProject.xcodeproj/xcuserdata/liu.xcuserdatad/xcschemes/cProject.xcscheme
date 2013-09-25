@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AAC089517C5E983002E0D26"
-               BuildableName = "cCode"
-               BlueprintName = "cCode"
-               ReferencedContainer = "container:cCode.xcodeproj">
+               BlueprintIdentifier = "5A42156017F1825A004ACB82"
+               BuildableName = "cProject"
+               BlueprintName = "cProject"
+               ReferencedContainer = "container:cProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AAC089517C5E983002E0D26"
-            BuildableName = "cCode"
-            BlueprintName = "cCode"
-            ReferencedContainer = "container:cCode.xcodeproj">
+            BlueprintIdentifier = "5A42156017F1825A004ACB82"
+            BuildableName = "cProject"
+            BlueprintName = "cProject"
+            ReferencedContainer = "container:cProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AAC089517C5E983002E0D26"
-            BuildableName = "cCode"
-            BlueprintName = "cCode"
-            ReferencedContainer = "container:cCode.xcodeproj">
+            BlueprintIdentifier = "5A42156017F1825A004ACB82"
+            BuildableName = "cProject"
+            BlueprintName = "cProject"
+            ReferencedContainer = "container:cProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AAC089517C5E983002E0D26"
-            BuildableName = "cCode"
-            BlueprintName = "cCode"
-            ReferencedContainer = "container:cCode.xcodeproj">
+            BlueprintIdentifier = "5A42156017F1825A004ACB82"
+            BuildableName = "cProject"
+            BlueprintName = "cProject"
+            ReferencedContainer = "container:cProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
