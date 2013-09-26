@@ -24,12 +24,17 @@ enum season {
     winter = 4
 };
 
+
 //可以进行如下简化，调用的时候不用写 enum 关键字
 typedef  enum{
     Mon,Tues,Wens,Thur,Fri,Sun,Sat
 }WeekDay;
+
 /////////////////////////////////////////
 //定义结构体,描述一个学员的信息：姓名、年龄、性别、、、、
+//基本数据类型，一个类型对应一个值 1:1   int age =25;
+//如果遇到复杂情况，一个人：{姓名;年龄;密码;....}  ,使用一个类型一个变量名称，不能很好的描述
+//结构体作用：把多个单独的变量，用统一的名称进行定义
 struct{char *name;int age;char sex;};
 //完整的结构体定义
 struct student {
@@ -50,6 +55,27 @@ typedef struct{
     char c;   //长度 1  sizeof(char)
     int a;    //长度 4  sizeof(int)
 } aaa;
+
+
+//定义一个点
+typedef struct{
+    int x;
+    int y;
+}Point;
+
+//定义一个线
+typedef struct{
+    Point p1;
+    Point p2;
+}Line;
+
+//定义一个矩形
+typedef struct{
+    Point p;
+    int width;
+    int height;
+}Rect;
+
 
 
 int main(int argc, const char * argv[])
