@@ -67,14 +67,20 @@ void printAddEmployee()
     */
     //如果链表头节点中数据为空，说明是新的空链表
     int rs=0;
+    
     if (Head == NULL) {
         init_List(&Head);
-        rs = insert_first(Head,name,password);
+        Head = insert_first(Head,name,password);
     }else
     {
         //否则的话，每次往链表，表头节点添加数据
-        rs = insert_first(Head,name,password);
-        
+        Head = insert_first(Head,name,password);
+    }
+    
+    int length = strlen(Head->name);
+    
+    if (Head != NULL && strlen(Head->name)!=0 ) {
+        rs = 1;
     }
     
     returnBack(rs);
@@ -102,7 +108,7 @@ void returnBack(int result)
         char c ;
         scanf("%c",&c);
         if (c == 'y') {
-            printEmployeeView();
+            printMainView();
         }
         if (c == 'n') {
             printAddEmployee();

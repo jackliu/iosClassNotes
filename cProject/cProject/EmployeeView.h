@@ -14,8 +14,6 @@
 LinkList Head; //头节点
 Employee *loca;//当前节点
 
-
-
 //0 打印后台管理主界面
 void printEmployeeView();
 

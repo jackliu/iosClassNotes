@@ -39,7 +39,7 @@ LinkList head;
 //初始化，链表
 void init_List(LinkList  *head);
 //插入
-int insert_first(LinkList head,char name[],char pwd[]);
+LinkList insert_first(LinkList head,char name[],char pwd[]);
 //浏览
 void print_List(LinkList  head);
 //查询

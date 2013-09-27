@@ -21,7 +21,7 @@ void init_List(LinkList  *head)
 }
 
 //插入
-int insert_first(LinkList head,char n[],char pwd[])
+LinkList insert_first(LinkList head,char n[],char pwd[])
 {
     //1   malloc() 新分配一块内存，新的节点
     Employee *p;   //等会要插入到链表中的节点
@@ -42,7 +42,7 @@ int insert_first(LinkList head,char n[],char pwd[])
     //4 把新创建的节点作为链表的首地址
     head = p;
     
-    return OK;
+    return head;
 }
 
 //浏览
@@ -67,7 +67,7 @@ void find_List(LinkList head,char *n)
     int findResult=0;//判断条件
     //判断节点是否存在
     while (p != NULL) {
-        if (strcmp(p->name, n)) {
+        if (strcmp(p->name, n)==0) {
             printf("用户名 %s 存在 \n",n);
             findResult = 1;  //存在，修改条件为 1
             break;
