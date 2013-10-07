@@ -1,0 +1,116 @@
+
+共三种:
+
+1. int
+输出格式符：%i, %d, %o %x,
+
+2. float
+输出格式符：%f, %e, %g
+
+3. double
+输出格式符：%f, %e, %g
+
+4. char
+输出格式符：%c
+
+
+限定符：
+
+1. long
+long int: %li
+long double: %Lf
+形成long int通过在数字后面加L.
+long int number = 123324123234123L;
+
+2. long long
+long long int: %lli
+
+3. short
+short int: %hi
+
+4. unsigned
+
+ 
+
+short
+
+unsigned
+
+signed
+
+-----------------------------------------------
+它们各自所占的字节数
+ 
+#import <Foundation/Foundation.h>
+
+int main (int argc, const char * argv[]) {
+    
+	
+	NSLog(@"The size of an int is: %d bytes.",sizeof(int));
+	NSLog(@"The size of a short int is: %d bytes.",sizeof(short int));
+	NSLog(@"The size of a long int is: %d bytes.",sizeof(long int));
+	NSLog(@"The size of a char is: %d bytes.",sizeof(char));
+	NSLog(@"The size of a float is: %d bytes.",sizeof(float));
+	NSLog(@"The size of a double is: %d bytes.",sizeof(double));
+	NSLog(@"The size of a bool is: %d bytes.",sizeof(bool));
+	
+	
+    
+    return 0;
+}
+ 
+2011-08-21 09:29:16.475 sizeofTest[860:903] The size of an int is: 4 bytes.
+2011-08-21 09:29:16.478 sizeofTest[860:903] The size of a short int is: 2 bytes.
+2011-08-21 09:29:16.478 sizeofTest[860:903] The size of a long int is: 8 bytes.
+2011-08-21 09:29:16.479 sizeofTest[860:903] The size of a char is: 1 bytes.
+2011-08-21 09:29:16.479 sizeofTest[860:903] The size of a float is: 4 bytes.
+2011-08-21 09:29:16.479 sizeofTest[860:903] The size of a double is: 8 bytes.
+2011-08-21 09:29:16.480 sizeofTest[860:903] The size of a bool is: 1 bytes.
+
+----------------------------------------------------------------------
+基本数据类型
+【Objective-C的基本数据类型】
+数据类型	说明
+short (signed short)	短整型（整数、0、负数）。
+（例）
+short a = -5;
+short a[] = {10, 0, -30};
+unsigned short	无符号短整型（整数、0）。
+（例）
+unsigned short a = 100;
+unsigned short a[] = {0, 1, 2};
+int (signed int)	整型（整数、0、负数）。
+（例）
+int a = -5;
+int a[] = {10, 0, -30};
+unsigned (unsigned int)	无符号整型（整数、0）。
+（例）
+unsigned a = 100;
+unsigned a[] = {0, 1, 2};
+float	浮点数（含有小数点）。
+（例）
+float a = 123.45f;
+double	比float大的浮点数
+（例）
+double a = 123.45;
+char	字符变量，用来存放字符常量，只能存放一个字符。
+所有的编译器都规定一个字节来存放一个字符，或者说是一个字符变量在内存中占一个字节。
+（例）
+char a = ‘A’;
+BOOL	YES/NO。
+（※BOOL型不是true/false，而是YES/NO。）（例）
+BOOL b = YES;
+参照型
+基本数据类型以外的所有数据类型都称为参照型。
+Objective-C语言，定义参照型都必须声明为指针变量，指针变量声明的时候在变量名前加上「*」。
+ （例）NSString *str = @"您好";
+id型
+Objective-C的id类型可以表示任意类型的对象或类（Java的Object类型一样）。
+id类型被预定义为指针类型，因此在使用id的时候不需要在变量名前添加「*」。
+ （例）id obj = @"您好";
+id型的类型转换
+// id型的obj变量转换成NSString
+NSString *str = (NSString*)obj;
+
+
+
