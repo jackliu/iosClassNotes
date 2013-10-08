@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 //1 导入自定义类的头文件
 #import "YCProjectManager.h"
+#import "Student.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        /*
         //2 定义一个项目经理的对象，对象名，对象值
         int a;
         a=10;
@@ -27,7 +29,7 @@ int main(int argc, const char * argv[])
         [pm1 writeDocument];
         
         NSLog(@"-----------------");
-        
+       
         //三个步骤连接在一起完成
         YCProjectManager *pm2 =[[YCProjectManager alloc]init];
         //init 方法只能确认内存是否分配成功，不能修改属性值，自己实现
@@ -42,10 +44,38 @@ int main(int argc, const char * argv[])
         //对象能够干什么?
         //通过对象，可以调用类中定义的所有行为
         //NSLog(@"%@",[pm2 getName]);
+        [pm2 print];
+        //[pm2 print2];
+        [YCProjectManager print2];
+        
         [pm2 meeting];
         
         [pm2 arrangeDevelopers];
+          */
+        
+        //定义一个对象
+        Student *stu1 = [[Student alloc]init];
+        //设置属性的值
+        [stu1 setName:@"吴俊"];
+        [stu1 setAge:23];
+        [stu1 setNumber:@"018"];
+        //打印
+        [stu1 print];
+        
+        
+        //创建对象的时候，需要分配内存 ，调用 alloc 方法
+        Student *stu2 = [[Student alloc]init];
+        [stu2 print];
+        //使用完毕，马上释放分配的内存
+        //由编译器，自动去调用 delloc 方法释放内存
+        //[stu2 dealloc];
+        
     }
     return 0;
 }
+
+
+
+
+
 

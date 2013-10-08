@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A154E5418041E5F004BF1A9 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A154E5318041E5F004BF1A9 /* Student.m */; };
 		5AEC9D611803D839001EBA30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEC9D601803D839001EBA30 /* Foundation.framework */; };
 		5AEC9D641803D839001EBA30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEC9D631803D839001EBA30 /* main.m */; };
 		5AEC9D681803D839001EBA30 /* OC_Day2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AEC9D671803D839001EBA30 /* OC_Day2.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A154E5218041E5F004BF1A9 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		5A154E5318041E5F004BF1A9 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		5AEC9D5D1803D839001EBA30 /* OC-Day2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC-Day2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEC9D601803D839001EBA30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5AEC9D631803D839001EBA30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				5AEC9D651803D839001EBA30 /* Supporting Files */,
 				5AEC9D6E1803D9F7001EBA30 /* YCProjectManager.h */,
 				5AEC9D6F1803D9F7001EBA30 /* YCProjectManager.m */,
+				5A154E5218041E5F004BF1A9 /* Student.h */,
+				5A154E5318041E5F004BF1A9 /* Student.m */,
 			);
 			path = "OC-Day2";
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			files = (
 				5AEC9D641803D839001EBA30 /* main.m in Sources */,
 				5AEC9D701803D9F7001EBA30 /* YCProjectManager.m in Sources */,
+				5A154E5418041E5F004BF1A9 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +263,7 @@
 				5AEC9D6D1803D839001EBA30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

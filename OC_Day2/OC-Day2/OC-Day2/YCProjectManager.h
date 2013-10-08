@@ -37,6 +37,12 @@
 -(NSString *)getSex;
 -(NSString *)getDepartment;
 //另外两个属性不想让用户知道，就不提供
+//在 OC  中，setter 方法前加  setXX ;getter 方法前不加 getXx
+-(NSString *)name;
+-(NSString *)sex;
+-(NSString *)department;
+
+
 
 
 //行为放置在 {} 外部
@@ -49,6 +55,10 @@
 -(void)arrangeDevelopers;
 //招聘
 -(void)zhaopin;
+
+//打印该对象的相关信息
+-(void)print;
++(void)print2;
 
 
 @end
