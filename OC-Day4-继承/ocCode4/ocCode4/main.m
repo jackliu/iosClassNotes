@@ -48,7 +48,7 @@ int main(int argc, const char * argv[])
         NSLog(@"Demo3  -----------------------");
         //创建项目经理对象
         Maninager *mana = [[Maninager alloc]init];
-        [mana setSalary:8000.0];
+        //[mana setSalary:8000.0];
         NSLog(@"经理的工资是 %lf ",[mana salary]);
         
         //创建技术人员对象

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7E9CE57A-A933-41E2-A2BC-4481B7E7127D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ocDay5</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>48F4E32C-EA46-4474-A0E8-AD3DBABAAEEB</key>
+		<string>https://github.com/jackliu/iosClassNotes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OC-Day5-多态/ocDay5/ocDay5.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>48F4E32C-EA46-4474-A0E8-AD3DBABAAEEB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jackliu/iosClassNotes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>48F4E32C-EA46-4474-A0E8-AD3DBABAAEEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>48F4E32C-EA46-4474-A0E8-AD3DBABAAEEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosClassNotes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

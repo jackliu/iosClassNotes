@@ -10,11 +10,14 @@
 
 @implementation Maninager
 
+@synthesize salary = _salary;
+
 //初始化  Maniager 对象的时候，定义好工资
 -(id)init
 {
-    if (self == [super init]) {
-        salary = 8000.0;
+    //先调用父类初始化方法，然后判断，然后赋值给当前类对象
+    if (self = [super init]) {
+        _salary = 8000.0;
     }
     return self;
 }
