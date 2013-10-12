@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0460"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AFD0D1A171E39110004D0A3"
-               BuildableName = "objc-demo"
-               BlueprintName = "objc-demo"
-               ReferencedContainer = "container:objc-demo.xcodeproj">
+               BlueprintIdentifier = "5ABF3CA81808F88000189B43"
+               BuildableName = "oc-Day7"
+               BlueprintName = "oc-Day7"
+               ReferencedContainer = "container:oc-Day7.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AFD0D1A171E39110004D0A3"
-            BuildableName = "objc-demo"
-            BlueprintName = "objc-demo"
-            ReferencedContainer = "container:objc-demo.xcodeproj">
+            BlueprintIdentifier = "5ABF3CA81808F88000189B43"
+            BuildableName = "oc-Day7"
+            BlueprintName = "oc-Day7"
+            ReferencedContainer = "container:oc-Day7.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AFD0D1A171E39110004D0A3"
-            BuildableName = "objc-demo"
-            BlueprintName = "objc-demo"
-            ReferencedContainer = "container:objc-demo.xcodeproj">
+            BlueprintIdentifier = "5ABF3CA81808F88000189B43"
+            BuildableName = "oc-Day7"
+            BlueprintName = "oc-Day7"
+            ReferencedContainer = "container:oc-Day7.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AFD0D1A171E39110004D0A3"
-            BuildableName = "objc-demo"
-            BlueprintName = "objc-demo"
-            ReferencedContainer = "container:objc-demo.xcodeproj">
+            BlueprintIdentifier = "5ABF3CA81808F88000189B43"
+            BuildableName = "oc-Day7"
+            BlueprintName = "oc-Day7"
+            ReferencedContainer = "container:oc-Day7.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
