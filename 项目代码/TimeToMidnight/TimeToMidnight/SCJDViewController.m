@@ -21,14 +21,15 @@
 @synthesize label;
 
 - (void)viewDidLoad
-{
+{    
+    [super viewDidLoad];
+    
     //修改界面中 的 值
     [label setFont:[UIFont fontWithName:@"DBLCDTempBlack" size:58.0]];
     
     label.text = @"哈哈";
     
-    
-    [super viewDidLoad];
+
 }
 
 
