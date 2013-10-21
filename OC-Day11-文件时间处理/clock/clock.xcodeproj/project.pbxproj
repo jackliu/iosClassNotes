@@ -20,7 +20,6 @@
 		5AF168FB180FEF32008C2ED3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF168DD180FEF32008C2ED3 /* UIKit.framework */; };
 		5AF16903180FEF32008C2ED3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AF16901180FEF32008C2ED3 /* InfoPlist.strings */; };
 		5AF16905180FEF32008C2ED3 /* clockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF16904180FEF32008C2ED3 /* clockTests.m */; };
-		5AF1690F1810055E008C2ED3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1690E1810055E008C2ED3 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		5AF16900180FEF32008C2ED3 /* clockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clockTests-Info.plist"; sourceTree = "<group>"; };
 		5AF16902180FEF32008C2ED3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AF16904180FEF32008C2ED3 /* clockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clockTests.m; sourceTree = "<group>"; };
-		5AF1690E1810055E008C2ED3 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +116,6 @@
 				5AF168EF180FEF32008C2ED3 /* ViewController.m */,
 				5AF168F1180FEF32008C2ED3 /* Images.xcassets */,
 				5AF168E0180FEF32008C2ED3 /* Supporting Files */,
-				5AF1690E1810055E008C2ED3 /* ViewController.xib */,
 			);
 			path = clock;
 			sourceTree = "<group>";
@@ -229,7 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AF168F2180FEF32008C2ED3 /* Images.xcassets in Resources */,
-				5AF1690F1810055E008C2ED3 /* ViewController.xib in Resources */,
 				5AF168E4180FEF32008C2ED3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +448,7 @@
 				5AF1690A180FEF32008C2ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AF1690B180FEF32008C2ED3 /* Build configuration list for PBXNativeTarget "clockTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +457,7 @@
 				5AF1690D180FEF32008C2ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

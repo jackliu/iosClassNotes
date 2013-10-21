@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D09BC547-ED21-4B7B-ACF1-7B287653F34E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>clock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>732880D6-8FF4-4CF6-A89D-5F748092EBEF</key>
+		<string>https://github.com/jackliu/iosClassNotes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OC-Day11-文件时间处理/clock/clock.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>732880D6-8FF4-4CF6-A89D-5F748092EBEF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jackliu/iosClassNotes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>732880D6-8FF4-4CF6-A89D-5F748092EBEF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>732880D6-8FF4-4CF6-A89D-5F748092EBEF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosClassNotes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
