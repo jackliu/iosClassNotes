@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet>
+    <getRegion>
+        <Province id="Province1" rowOrder="0">
+            <RegionID>3113</RegionID>
+            <RegionName>黑龙江</RegionName>
+        </Province>
+        <Province id="Province2" rowOrder="1">
+            <RegionID>3114</RegionID>
+            <RegionName>吉林</RegionName>
+        </Province>
+        <Province id="Province3" rowOrder="2">
+            <RegionID>3115</RegionID>
+            <RegionName>辽宁</RegionName>
+        </Province>
+        <Province id="Province4" rowOrder="3">
+            <RegionID>3116</RegionID>
+            <RegionName>内蒙古</RegionName>
+        </Province>
+        <Province id="Province5" rowOrder="4">
+            <RegionID>3117</RegionID>
+            <RegionName>河北</RegionName>
+        </Province>
+        <Province id="Province6" rowOrder="5">
+            <RegionID>3118</RegionID>
+            <RegionName>河南</RegionName>
+        </Province>
+        <Province id="Province7" rowOrder="6">
+            <RegionID>3119</RegionID>
+            <RegionName>山东</RegionName>
+        </Province>
+        <Province id="Province8" rowOrder="7">
+            <RegionID>31110</RegionID>
+            <RegionName>山西</RegionName>
+        </Province>
+        <Province id="Province9" rowOrder="8">
+            <RegionID>31111</RegionID>
+            <RegionName>江苏</RegionName>
+        </Province>
+        <Province id="Province10" rowOrder="9">
+            <RegionID>31112</RegionID>
+            <RegionName>安徽</RegionName>
+        </Province>
+        <Province id="Province11" rowOrder="10">
+            <RegionID>31113</RegionID>
+            <RegionName>陕西</RegionName>
+        </Province>
+        <Province id="Province12" rowOrder="11">
+            <RegionID>31114</RegionID>
+            <RegionName>宁夏</RegionName>
+        </Province>
+        <Province id="Province13" rowOrder="12">
+            <RegionID>31115</RegionID>
+            <RegionName>甘肃</RegionName>
+        </Province>
+        <Province id="Province14" rowOrder="13">
+            <RegionID>31116</RegionID>
+            <RegionName>青海</RegionName>
+        </Province>
+        <Province id="Province15" rowOrder="14">
+            <RegionID>31117</RegionID>
+            <RegionName>湖北</RegionName>
+        </Province>
+        <Province id="Province16" rowOrder="15">
+            <RegionID>31118</RegionID>
+            <RegionName>湖南</RegionName>
+        </Province>
+        <Province id="Province17" rowOrder="16">
+            <RegionID>31119</RegionID>
+            <RegionName>浙江</RegionName>
+        </Province>
+        <Province id="Province18" rowOrder="17">
+            <RegionID>31120</RegionID>
+            <RegionName>江西</RegionName>
+        </Province>
+        <Province id="Province19" rowOrder="18">
+            <RegionID>31121</RegionID>
+            <RegionName>福建</RegionName>
+        </Province>
+        <Province id="Province20" rowOrder="19">
+            <RegionID>31122</RegionID>
+            <RegionName>贵州</RegionName>
+        </Province>
+        <Province id="Province21" rowOrder="20">
+            <RegionID>31123</RegionID>
+            <RegionName>四川</RegionName>
+        </Province>
+        <Province id="Province22" rowOrder="21">
+            <RegionID>31124</RegionID>
+            <RegionName>广东</RegionName>
+        </Province>
+        <Province id="Province23" rowOrder="22">
+            <RegionID>31125</RegionID>
+            <RegionName>广西</RegionName>
+        </Province>
+        <Province id="Province24" rowOrder="23">
+            <RegionID>31126</RegionID>
+            <RegionName>云南</RegionName>
+        </Province>
+        <Province id="Province25" rowOrder="24">
+            <RegionID>31127</RegionID>
+            <RegionName>海南</RegionName>
+        </Province>
+        <Province id="Province26" rowOrder="25">
+            <RegionID>31128</RegionID>
+            <RegionName>新疆</RegionName>
+        </Province>
+        <Province id="Province27" rowOrder="26">
+            <RegionID>31129</RegionID>
+            <RegionName>西藏</RegionName>
+        </Province>
+        <Province id="Province28" rowOrder="27">
+            <RegionID>31130</RegionID>
+            <RegionName>台湾</RegionName>
+        </Province>
+        <Province id="Province29" rowOrder="28">
+            <RegionID>311101</RegionID>
+            <RegionName>北京</RegionName>
+        </Province>
+        <Province id="Province30" rowOrder="29">
+            <RegionID>311102</RegionID>
+            <RegionName>上海</RegionName>
+        </Province>
+        <Province id="Province31" rowOrder="30">
+            <RegionID>311103</RegionID>
+            <RegionName>天津</RegionName>
+        </Province>
+        <Province id="Province32" rowOrder="31">
+            <RegionID>311104</RegionID>
+            <RegionName>重庆</RegionName>
+        </Province>
+        <Province id="Province33" rowOrder="32">
+            <RegionID>311201</RegionID>
+            <RegionName>香港</RegionName>
+        </Province>
+        <Province id="Province34" rowOrder="33">
+            <RegionID>311202</RegionID>
+            <RegionName>澳门</RegionName>
+        </Province>
+        <Province id="Province35" rowOrder="34">
+            <RegionID>311203</RegionID>
+            <RegionName>钓鱼岛</RegionName>
+        </Province>
+    
+    </getRegion>
+</DataSet>
