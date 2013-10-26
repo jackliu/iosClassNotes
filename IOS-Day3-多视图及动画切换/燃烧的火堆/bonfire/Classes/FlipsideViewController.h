@@ -1,0 +1,15 @@
+//
+//  FlipsideViewController.h
+//  Bonfire
+//
+//  Created by apple on 10/2/08.
+//  Copyright Amuck LLC 2008. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface FlipsideViewController : UIViewController {
+
+}
+- (IBAction)launchSiteClick;
+@end
