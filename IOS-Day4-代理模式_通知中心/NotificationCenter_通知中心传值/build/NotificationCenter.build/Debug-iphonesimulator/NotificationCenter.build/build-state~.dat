@@ -1,0 +1,313 @@
+TNotificationCenter
+v7
+r0
+t327404659.958361
+cCheck dependencies
+cProcessInfoPlistFile /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/Info.plist NotificationCenter-Info.plist
+cCompileXIB /Users/meixun/Desktop/iphone测试/NotificationCenter/MainWindow.xib
+cCompileXIB /Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenterViewController.xib
+cCompileXIB /Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.xib
+cProcessPCH /var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch.gch NotificationCenter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/main.o /Users/meixun/Desktop/iphone测试/NotificationCenter/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterAppDelegate.o /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterViewController.o /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/MyController.o /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/../MyController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter normal i386
+cGenerateDSYMFile /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app.dSYM /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter
+cTouch /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/../MyController.m
+c000000004DD393E70000000000000618
+t1305711591
+s1560
+i"MyController.h"
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterAppDelegate.h
+c000000004DD393B5000000000000021C
+t1305711541
+s540
+i<UIKit/UIKit.h>
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterAppDelegate.m
+c000000004DD393B50000000000000AC7
+t1305711541
+s2759
+i"NotificationCenterAppDelegate.h"
+i"NotificationCenterViewController.h"
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterViewController.h
+c000000004DD394EE00000000000001B3
+t1305711854
+s435
+i<UIKit/UIKit.h>
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterViewController.m
+c000000004DD394EE0000000000000609
+t1305711854
+s1545
+i"NotificationCenterViewController.h"
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/MainWindow.xib
+c000000004DD393B50000000000004EAD
+t1305711541
+s20141
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.h
+c000000004DD393E700000000000000E2
+t1305711591
+s226
+i<UIKit/UIKit.h>
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.m
+c000000004DD393E70000000000000618
+t1305711591
+s1560
+i"MyController.h"
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.xib
+c000000004DD3944F0000000000003AC7
+t1305711695
+s15047
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenterViewController.xib
+c000000004DD394850000000000004CB7
+t1305711749
+s19639
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenter_Prefix.pch
+c000000004DD393B500000000000000CD
+t1305711541
+s205
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app
+t1305711859
+s272
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app.dSYM
+t1305711859
+s102
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/Info.plist
+t1305711854
+s641
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/MainWindow.nib
+t1305711857
+s1145
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/MyController.nib
+t1305711858
+s764
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter
+t1305711859
+s19460
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenterViewController.nib
+t1305711857
+s1725
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/PkgInfo
+t1305711854
+s8
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/MyController.o
+t1305711859
+s37548
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenter.LinkFileList
+c000000004DD394EE00000000000002B9
+t1305711854
+s697
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterAppDelegate.o
+t1305711859
+s51636
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterViewController.o
+t1305711859
+s40548
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/main.o
+t1305711859
+s6332
+
+N/Users/meixun/Desktop/iphone测试/NotificationCenter/main.m
+c000000004DD393B5000000000000016F
+t1305711541
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch.gch
+t1305711859
+s15453392
+
+NNotificationCenter-Info.plist
+c000000004DD393B5000000000000038D
+t1305711541
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327404654#327404654#0(0"0(0#1#0"8651307296#0"0#
+
+CCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/MyController.o /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/../MyController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327404659.746150
+e327404659.847125
+r1
+xCompileC
+xbuild/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/MyController.o
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/../MyController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/../MyController.m327404659#327404659#0(0"0(0#0#79"/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/../MyController.m8648753600#2326"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-generated-files.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-own-target-headers.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-all-target-headers.hmap -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-project-headers.hmap -F/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/include -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources/i386 -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources -include /var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch -c /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/../MyController.m -o /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/MyController.o0#
+
+CCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/MyController.o /Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterAppDelegate.o /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327404659.650734
+e327404659.746041
+r1
+xCompileC
+xbuild/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterAppDelegate.o
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterAppDelegate.m327404659#327404659#0(0"0(0#0#93"/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterAppDelegate.m8652602944#2357"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-generated-files.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-own-target-headers.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-all-target-headers.hmap -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-project-headers.hmap -F/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/include -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources/i386 -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources -include /var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch -c /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterAppDelegate.m -o /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterAppDelegate.o0#
+
+CCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterViewController.o /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327404659.711933
+e327404659.798151
+r1
+xCompileC
+xbuild/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterViewController.o
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterViewController.m327404659#327404659#0(0"0(0#0#96"/Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterViewController.m8650949632#2363"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-generated-files.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-own-target-headers.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-all-target-headers.hmap -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-project-headers.hmap -F/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/include -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources/i386 -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources -include /var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch -c /Users/meixun/Desktop/iphone测试/NotificationCenter/Classes/NotificationCenterViewController.m -o /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenterViewController.o0#
+
+CCompileC build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/main.o /Users/meixun/Desktop/iphone测试/NotificationCenter/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327404659.649242
+e327404659.711823
+r1
+xCompileC
+xbuild/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/main.o
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/meixun/Desktop/iphone测试/NotificationCenter/main.m327404659#327404659#0(0"0(0#0#60"/Users/meixun/Desktop/iphone测试/NotificationCenter/main.m8654032096#2299"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-generated-files.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-own-target-headers.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-all-target-headers.hmap -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-project-headers.hmap -F/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/include -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources/i386 -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources -include /var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch -c /Users/meixun/Desktop/iphone测试/NotificationCenter/main.m -o /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/meixun/Desktop/iphone测试/NotificationCenter/MainWindow.xib
+s327404654.250025
+e327404657.705718
+r1
+xCompileXIB
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib327404654#327404657#0(0"0(0#0#68"/Users/meixun/Desktop/iphone测试/NotificationCenter/MainWindow.xib8642662880#626"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/MainWindow.nib /Users/meixun/Desktop/iphone测试/NotificationCenter/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.xib
+s327404657.625452
+e327404658.136395
+r1
+xCompileXIB
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.xib
+lSLF07#2@27"CompileXIB MyController.xib327404657#327404658#0(0"0(0#0#70"/Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.xib8618973216#630"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/MyController.nib /Users/meixun/Desktop/iphone测试/NotificationCenter/MyController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenterViewController.xib
+s327404654.316948
+e327404657.625263
+r1
+xCompileXIB
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenterViewController.xib
+lSLF07#2@47"CompileXIB NotificationCenterViewController.xib327404654#327404657#0(0"0(0#0#90"/Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenterViewController.xib8653201024#670"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenterViewController.nib /Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenterViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app.dSYM /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter
+s327404659.895508
+e327404659.953943
+r1
+xGenerateDSYMFile
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app.dSYM
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter
+lSLF07#2@142"GenerateDSYMFile build/Debug-iphonesimulator/NotificationCenter.app.dSYM build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter327404659#327404659#0(0"0(0#0#123"/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter8653198528#461"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter -o /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app.dSYM0#
+
+CLd /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter normal i386
+s327404659.847222
+e327404659.895412
+r1
+xLd
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter
+xnormal
+xi386
+lSLF07#2@128"Link /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter327404659#327404659#0(0"0(0#0#0"8633435744#1030"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator -F/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator -filelist /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/Objects-normal/i386/NotificationCenter.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/NotificationCenter0#
+
+CProcessInfoPlistFile /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/Info.plist NotificationCenter-Info.plist
+s327404654.239241
+e327404654.249917
+r1
+xProcessInfoPlistFile
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/Info.plist
+xNotificationCenter-Info.plist
+lSLF07#2@37"Process NotificationCenter-Info.plist327404654#327404654#0(0"0(0#0#83"/Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenter-Info.plist8650015296#557"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NotificationCenter-Info.plist -genpkginfo /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app/Info.plist0#
+
+CProcessPCH /var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch.gch NotificationCenter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327404658.136521
+e327404659.648980
+r1
+xProcessPCH
+x/var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch.gch
+xNotificationCenter_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile NotificationCenter_Prefix.pch327404658#327404659#0(0"0(0#0#83"/Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenter_Prefix.pch8654676576#2165"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-generated-files.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-own-target-headers.hmap -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-all-target-headers.hmap -iquote /Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/NotificationCenter-project-headers.hmap -F/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/include -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources/i386 -I/Users/meixun/Desktop/iphone测试/NotificationCenter/build/NotificationCenter.build/Debug-iphonesimulator/NotificationCenter.build/DerivedSources -c /Users/meixun/Desktop/iphone测试/NotificationCenter/NotificationCenter_Prefix.pch -o /var/folders/zJ/zJUHUzjiG88CgO0yg9dAME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NotificationCenter_Prefix-ahlbcotfijecaifnapunixjgllgf/NotificationCenter_Prefix.pch.gch0#
+
+CTouch /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app
+s327404659.954109
+e327404659.958321
+r1
+xTouch
+x/Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app
+lSLF07#2@110"Touch /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app327404659#327404659#0(0"0(0#0#0"8617470592#319"    cd /Users/meixun/Desktop/iphone测试/NotificationCenter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/meixun/Desktop/iphone测试/NotificationCenter/build/Debug-iphonesimulator/NotificationCenter.app0#
+
