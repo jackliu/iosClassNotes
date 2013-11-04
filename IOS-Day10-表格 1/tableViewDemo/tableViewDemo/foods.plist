@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>北方菜</key>
+	<array>
+		<string>鲁菜</string>
+		<string>东北菜</string>
+	</array>
+	<key>南方菜</key>
+	<array>
+		<string>粤菜</string>
+		<string>湘菜</string>
+	</array>
+</dict>
+</plist>

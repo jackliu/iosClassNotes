@@ -36,8 +36,7 @@
     [self.view addSubview:v1];
     
     
-    
-    //创建第二个视图
+    //创建第二个视图，作为背景
     v2 = [[UIImageView alloc]initWithFrame:CGRectMake(70.0f, 50.0f, 150.0f, 150.0f)];
     [v2 setImage:[UIImage imageNamed:@"111.png"]];
     [self.view insertSubview:v2 belowSubview:v1];
@@ -58,6 +57,7 @@
     [UIView setAnimationDuration:8]; //匀速改变
     //指定动画的移动曲线，先慢后快， 4 个动画效果
     [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+    
     //指定动画的二维变换效果
     [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:v1 cache:YES];
     

@@ -10,4 +10,17 @@
 
 @interface ThreeViewController : UIViewController
 
+//被动画控制的 图层
+@property(nonatomic,strong)UIImageView *box;
+
+- (IBAction)animation1:(UIButton *)sender;
+
+- (IBAction)animation2:(UIButton *)sender;
+
+
 @end
+
+
+
+
+

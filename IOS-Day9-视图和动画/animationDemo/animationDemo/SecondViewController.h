@@ -10,4 +10,15 @@
 
 @interface SecondViewController : UIViewController
 
+@property(nonatomic,strong)UIImageView *imgView ;
+
+
+- (IBAction)animation1:(UIButton *)sender;
+- (IBAction)animation2:(UIButton *)sender;
+- (IBAction)animation3:(UIButton *)sender;
+
+
+
+
+
 @end

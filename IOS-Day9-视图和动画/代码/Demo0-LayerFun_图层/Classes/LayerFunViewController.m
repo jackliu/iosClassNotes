@@ -38,7 +38,7 @@
     //得到当前 View 的 layer (图层)
     self.view.layer.backgroundColor = [UIColor orangeColor].CGColor;
     self.view.layer.cornerRadius = 20.0; //圆角半径
-    self.view.layer.frame = CGRectInset(self.view.layer.frame, 20, 20);   //图层的尺寸
+    self.view.layer.frame = CGRectInset(self.view.layer.frame, 50, 50);   //图层的尺寸
 
     //自己新建的一个图层
     CALayer *sublayer = [CALayer layer];
@@ -51,15 +51,22 @@
     sublayer.frame = CGRectMake(30, 30, 128, 192);
     sublayer.borderColor = [UIColor blackColor].CGColor;
     sublayer.borderWidth = 2.0;
-    sublayer.cornerRadius = 10.0;  
+    sublayer.cornerRadius = 10.0;
+    //图层一定要添加到图层中
     [self.view.layer addSublayer:sublayer];
 
     
     CALayer *imageLayer = [CALayer layer];
+    //根据上一个图层的尺寸，得到当前图层的尺寸
     imageLayer.frame = sublayer.bounds;
+    
     imageLayer.cornerRadius = 10.0;
+    //contents 接收 UIView 的组件，UILabel UIButton UIImage
     imageLayer.contents = (id) [UIImage imageNamed:@"BattleMapSplashScreen.png"].CGImage;
+    
+    //绑定标记
     imageLayer.masksToBounds = YES;
+    
     //把图片的图层，添加到 上面图层中，图片可以带阴影效果
     [sublayer addSublayer:imageLayer];
     

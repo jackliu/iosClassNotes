@@ -45,6 +45,8 @@
 		55DEA21418238215006DA3CC /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DEA20518238215006DA3CC /* 29-heart.png */; };
 		55DEA21718238DD2006DA3CC /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DEA21618238DD2006DA3CC /* image.png */; };
 		55DEA21918238DF4006DA3CC /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DEA21818238DF4006DA3CC /* 111.png */; };
+		55F49B7B1827849900C0DBDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F49B7A1827849900C0DBDB /* QuartzCore.framework */; };
+		55F49B7D18278BCA00C0DBDB /* png8.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F49B7C18278BCA00C0DBDB /* png8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		55DEA20518238215006DA3CC /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart.png"; sourceTree = "<group>"; };
 		55DEA21618238DD2006DA3CC /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		55DEA21818238DF4006DA3CC /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		55F49B7A1827849900C0DBDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55F49B7C18278BCA00C0DBDB /* png8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = png8.png; path = "../../课堂截图/png8.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F49B7B1827849900C0DBDB /* QuartzCore.framework in Frameworks */,
 				55DEA1BD18238137006DA3CC /* UIKit.framework in Frameworks */,
 				55DEA1BF18238137006DA3CC /* Foundation.framework in Frameworks */,
 				55DEA1C118238137006DA3CC /* CoreGraphics.framework in Frameworks */,
@@ -113,6 +118,7 @@
 		55DEA1B018238137006DA3CC = {
 			isa = PBXGroup;
 			children = (
+				55F49B7A1827849900C0DBDB /* QuartzCore.framework */,
 				55DEA1C218238137006DA3CC /* animationDemo */,
 				55DEA1BB18238137006DA3CC /* Frameworks */,
 				55DEA1BA18238137006DA3CC /* Products */,
@@ -140,6 +146,7 @@
 		55DEA1C218238137006DA3CC /* animationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				55F49B7C18278BCA00C0DBDB /* png8.png */,
 				55DEA2151823821A006DA3CC /* images */,
 				55DEA1CB18238137006DA3CC /* AppDelegate.h */,
 				55DEA1CC18238137006DA3CC /* AppDelegate.m */,
@@ -282,6 +289,7 @@
 				55DEA21418238215006DA3CC /* 29-heart.png in Resources */,
 				55DEA21718238DD2006DA3CC /* image.png in Resources */,
 				55DEA21918238DF4006DA3CC /* 111.png in Resources */,
+				55F49B7D18278BCA00C0DBDB /* png8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +436,7 @@
 				55DEA1EC18238137006DA3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -69,7 +69,7 @@
     //连写
     //int(^sq)(int) = ^(int a){return a*a;};
     
-    int (^aa)(int) = ^(int a){return a*a;};
+    //int (^aa)(int) = ^(int a){return a*a;};
     
     //3、使用 Block Pointer
     int result = square(5);   //感觉类似于 funtion
