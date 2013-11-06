@@ -10,9 +10,19 @@
 
 @interface NAViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+//每个章节中的行数据
 @property (nonatomic, strong) NSArray *tableData;
+//
 @property (nonatomic, strong) UILocalizedIndexedCollation *collation;
+//
 @property (nonatomic, strong) NSMutableArray *outerArray;
+
+//索引列数组
 @property (nonatomic, strong) NSArray *indexTitlesArray;
 
 @end
+
+
+
+
+
