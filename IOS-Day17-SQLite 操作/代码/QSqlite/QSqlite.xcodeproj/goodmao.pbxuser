@@ -1,0 +1,188 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* QSqliteAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 945}}";
+			sepNavSelRange = "{245, 218}";
+			sepNavVisRange = "{40, 484}";
+		};
+	};
+	1D3623250D0F684500981E51 /* QSqliteAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 2688}}";
+			sepNavSelRange = "{969, 215}";
+			sepNavVisRange = "{639, 749}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* QSqlite */ = {
+		activeExec = 0;
+		executables = (
+			3D5EC3D614F19A2000847E79 /* QSqlite */,
+		);
+	};
+	2978944312ED34C60066A1AF /* LiteEngine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 567}}";
+			sepNavSelRange = "{246, 0}";
+			sepNavVisRange = "{0, 562}";
+		};
+	};
+	2978944412ED34C60066A1AF /* LiteEngine.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 3633}}";
+			sepNavSelRange = "{961, 0}";
+			sepNavVisRange = "{749, 687}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3D5EC3D614F19A2000847E79 /* QSqlite */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* QSqlite */;
+		codeSenseManager = 3D5EC3DE14F19A3E00847E79 /* Code sense */;
+		executables = (
+			3D5EC3D614F19A2000847E79 /* QSqlite */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					705,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 358223252;
+			PBXWorkspaceStateSaveDate = 358223252;
+		};
+		perUserProjectItems = {
+			3D5EC40B14F1A52D00847E79 /* PlistBookmark */ = 3D5EC40B14F1A52D00847E79 /* PlistBookmark */;
+			3D98AED1151C7AAA00ED621C /* PBXTextBookmark */ = 3D98AED1151C7AAA00ED621C /* PBXTextBookmark */;
+			3D98AED2151C7AAA00ED621C /* PBXTextBookmark */ = 3D98AED2151C7AAA00ED621C /* PBXTextBookmark */;
+			3D98AED3151C7AAA00ED621C /* PBXTextBookmark */ = 3D98AED3151C7AAA00ED621C /* PBXTextBookmark */;
+			3DB49758155A0D8C00FC6852 /* PBXTextBookmark */ = 3DB49758155A0D8C00FC6852 /* PBXTextBookmark */;
+			3DB4976C155A0DFD00FC6852 /* PBXTextBookmark */ = 3DB4976C155A0DFD00FC6852 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3D5EC3DD14F19A3E00847E79 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3D5EC3D614F19A2000847E79 /* QSqlite */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = QSqlite;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3D5EC3DD14F19A3E00847E79 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3D5EC3DE14F19A3E00847E79 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3D5EC40B14F1A52D00847E79 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* QSqlite-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/work/T72-iOS-L15/QSqlite/QSqlite-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	3D98AED1151C7AAA00ED621C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2978944312ED34C60066A1AF /* LiteEngine.h */;
+		name = "LiteEngine.h: 15";
+		rLen = 0;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 562;
+		vrLoc = 0;
+	};
+	3D98AED2151C7AAA00ED621C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* QSqliteAppDelegate.m */;
+		name = "QSqliteAppDelegate.m: 49";
+		rLen = 215;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 639;
+	};
+	3D98AED3151C7AAA00ED621C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* QSqliteAppDelegate.h */;
+		name = "QSqliteAppDelegate.h: 15";
+		rLen = 218;
+		rLoc = 245;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 40;
+	};
+	3DB49758155A0D8C00FC6852 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2978944412ED34C60066A1AF /* LiteEngine.m */;
+		name = "LiteEngine.m: 41";
+		rLen = 0;
+		rLoc = 961;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 765;
+	};
+	3DB4976C155A0DFD00FC6852 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2978944412ED34C60066A1AF /* LiteEngine.m */;
+		name = "LiteEngine.m: 41";
+		rLen = 0;
+		rLoc = 961;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 749;
+	};
+}
