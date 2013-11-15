@@ -27,7 +27,6 @@
 //修改一条数据
 -(void)updataSUser:(SUser *)user;
 
-
 /**
  * @brief 删除一条用户数据
  *
@@ -45,9 +44,10 @@
  * @brief 模拟分页查找数据。取uid大于某个值以后的limit个数据
  *
  * @param uid
- * @param limit 每页取多少个
+ * @param begin 从第几条数据开始查询
+ * @param limit 每次最多取几条数据
  */
-- (NSArray *) findWithUid:(NSString *) uid limit:(int) limit;
+- (NSArray *) findWithUid:(NSString *) uid andBegin:(int)begin andLimit:(int) limit;
 
 
 @end

@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Timer */ = {
+		activeExec = 0;
+		executables = (
+			3D0D728515184DB500666551 /* Timer */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* TimerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 672}}";
+			sepNavSelRange = "{281, 11}";
+			sepNavVisRange = "{127, 190}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* TimerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 2352}}";
+			sepNavSelRange = "{787, 24}";
+			sepNavVisRange = "{765, 423}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3D0D728515184DB500666551 /* Timer */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Timer */;
+		codeSenseManager = 3D0D729715184DD000666551 /* Code sense */;
+		executables = (
+			3D0D728515184DB500666551 /* Timer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					427,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 353914293;
+			PBXWorkspaceStateSaveDate = 353914293;
+		};
+		perUserProjectItems = {
+			3D0D7357151874EE00666551 /* PBXTextBookmark */ = 3D0D7357151874EE00666551 /* PBXTextBookmark */;
+			3D0D7358151874EE00666551 /* PBXTextBookmark */ = 3D0D7358151874EE00666551 /* PBXTextBookmark */;
+			3D0D7359151874EE00666551 /* PBXTextBookmark */ = 3D0D7359151874EE00666551 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3D0D729615184DD000666551 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3D0D728515184DB500666551 /* Timer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Timer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3D0D729615184DD000666551 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3D0D729715184DD000666551 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3D0D7357151874EE00666551 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* TimerViewController.h */;
+		name = "TimerViewController.h: 19";
+		rLen = 11;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 127;
+	};
+	3D0D7358151874EE00666551 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TimerViewController.m */;
+		name = "TimerViewController.m: 53";
+		rLen = 0;
+		rLoc = 1266;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 1211;
+	};
+	3D0D7359151874EE00666551 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TimerViewController.m */;
+		name = "TimerViewController.m: 37";
+		rLen = 24;
+		rLoc = 787;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 765;
+	};
+}
