@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocationDemo
+
+  Created by shangdejigou on 13-11-15.
+  Copyright (c) 2013年 xxxx. All rights reserved.
+*/
+
+"key1" = "你好";
+"key2" = "吃了吗？你！";

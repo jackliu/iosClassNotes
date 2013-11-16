@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocationDemo
+
+  Created by shangdejigou on 13-11-15.
+  Copyright (c) 2013年 xxxx. All rights reserved.
+*/
+
+"key1" = "Hello";
+"key2" = "Today is a good Day";
