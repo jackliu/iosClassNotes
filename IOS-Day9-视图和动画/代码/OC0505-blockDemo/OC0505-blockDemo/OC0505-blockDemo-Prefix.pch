@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'OC0505-blockDemo' target in the 'OC0505-blockDemo' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
